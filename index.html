@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CRUD</title>
+</head>
+
+<body style="color: whitesmoke">
+
+    <div class="container">
+        <h1 style="text-align: center;">Student Information</h1>
+        <div class="studentInfo">
+            <p style="margin-bottom: 0;">Student ID:</p>
+            <input id="studentID" type="text" placeholder="Enter your Student ID">
+            <p style="margin-bottom: 0;">Fullname:</p>
+            <input id="Fullname" type="text" placeholder="Enter your Fullname">
+            <p style="margin-bottom: 0;">Email:</p>
+            <input id="Email" type="text" placeholder="Enter your Email">
+        </div>
+        <button id="submitButton">Submit</button>
+        <div class="studentTable">
+            <table id="studentTable">
+                <tr>
+                    <th>Student ID</th>
+                    <th>Fullname</th>
+                    <th>Email</th>
+                    <th>Action</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
